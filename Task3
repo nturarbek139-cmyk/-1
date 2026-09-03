@@ -1,0 +1,7 @@
+deposit = float(input("Введите сумму вклада: "))
+rate = float(input("Введите годовую процентную ставку (%): "))
+years = int(input("Введите количество лет: "))
+
+result = deposit * (1 + rate / 100) ** years
+
+print("Итоговая сумма:", result)
